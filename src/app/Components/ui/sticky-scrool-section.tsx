@@ -54,7 +54,7 @@ export const StickyScroll = ({
 
   return (
     <>
-      <div className="flex justify-center font-serif">
+      <div className="flex justify-center font-serif mt-96">
         <div className="font-extrabold text-5xl ">Special Moments of her lyf</div>
       </div>
       <motion.div
