@@ -18,9 +18,9 @@ export function LampDemo() {
       >
         {/* Suhani Teotia  */}
         She believes in 
-        <br /> "Smile to change da wrld.."
+        <br /> &quot;Smile to change da wrld..&quot;
         <br/>
-            "Don't let da wrld to change ur smile  "
+            &quot;Don't let da wrld to change ur smile  &quot;
       </motion.h1>
     </LampContainer>
   );

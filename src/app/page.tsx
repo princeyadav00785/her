@@ -14,27 +14,27 @@ import { CardContainer } from "./Components/ui/3d-card";
 import { BackgroundGradient } from "./Components/ui/Background-gradient";
 
 
-const tabs: Tab[] = [
-  {
-    title: "Tab 1",
-    value: "tab1",
-    content: "This is the content for Tab 1.",
-  },
-  {
-    title: "Tab 2",
-    value: "tab2",
-    content: (
-      <div>
-        <h2>This is Tab 2</h2>
-        <p>This is some dynamic content for Tab 2.</p>
-      </div>
-    ),
-  },
-  {
-    title: "Tab 3",
-    value: "tab3",
-  },
-];
+// const tabs: Tab[] = [
+//   {
+//     title: "Tab 1",
+//     value: "tab1",
+//     content: "This is the content for Tab 1.",
+//   },
+//   {
+//     title: "Tab 2",
+//     value: "tab2",
+//     content: (
+//       <div>
+//         <h2>This is Tab 2</h2>
+//         <p>This is some dynamic content for Tab 2.</p>
+//       </div>
+//     ),
+//   },
+//   {
+//     title: "Tab 3",
+//     value: "tab3",
+//   },
+// ];
 
 const navItems = [
   { name: 'Home', link: '/' },
@@ -232,6 +232,12 @@ const items: {
   },
 
 ];
+interface Card {
+  id: number;
+  name: string;
+  designation: string;
+  content: string;
+}
 
 const cards: Card[] = [
   {
@@ -302,9 +308,9 @@ export default function Home() {
       {/* <Tabs tabs={tabs}/> */}
       <InfiniteMovingCards items={items} />
       {/* <Spotlight/> */}
-      {/* <CardStack items={cards}/> */}
+      <CardStack items={cards}/>
       {/* <BackgroundGradient/> */}
-      <CardContainer/>
+      {/* <CardContainer/> */}
       <Footer/>
      
     </main>
