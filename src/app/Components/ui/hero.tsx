@@ -113,7 +113,7 @@ export const Header = () => {
         {/* We build beautiful products with the latest technologies and frameworks.
         We are a team of passionate developers and designers that love to build
         amazing products. */}
-        An enchanting embodiment of love and grace, possesses a heart of gold, illuminating every moment with her radiant smile and boundless kindness. Her gentle spirit and unwavering compassion fill the world with joy, painting each day with hues of tenderness and affection. In her embrace, I find solace and strength, for she is not just a sweet and kind person, but a beacon of light in life of ppl surrounding her.
+        An enchanting embodiment of love and grace, possesses a heart of gold, illuminating every moment with her radiant smile and boundless kindness. Her gentle spirit and unwavering compassion fill the world with joy, painting each day with hues of tenderness and affection. In her embrace, I find solace and strength, for she is not just a sweet and kind person, but a beacon of light in life of ppl surrounding.
       </p>
     </div>
   );
