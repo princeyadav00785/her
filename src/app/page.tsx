@@ -1,5 +1,5 @@
-import { Navbar } from "./Components/ui/navbar";
-import { LampDemo } from "./Components/ui/lamp";
+// import { Navbar } from "./Components/ui/navbar";
+// import { LampDemo } from "./Components/ui/lamp";
 import { MacbookScroll } from "./Components/ui/macbook-scroll";
 import Footer from "./Components/ui/footer";
 import { CardStack } from "./Components/ui/card-stack";
@@ -7,11 +7,11 @@ import { Spotlight } from "./Components/ui/Spotlight";
 import { FloatingNav } from "./Components/ui/floating-navbar";
 import { HeroParallax } from "./Components/ui/hero";
 import { StickyScroll } from "./Components/ui/sticky-scrool-section";
-import { Tabs } from "./Components/ui/tabs";
+// import { Tabs } from "./Components/ui/tabs";
 import { InfiniteMovingCards } from "./Components/ui/infinte-moving-cards";
 import { TracingBeam } from "./Components/ui/tracing-beams";
-import { CardContainer } from "./Components/ui/3d-card";
-import { BackgroundGradient } from "./Components/ui/Background-gradient";
+// import { CardContainer } from "./Components/ui/3d-card";
+// import { BackgroundGradient } from "./Components/ui/Background-gradient";
 
 
 // const tabs: Tab[] = [
