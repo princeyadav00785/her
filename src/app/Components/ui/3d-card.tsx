@@ -91,6 +91,11 @@ export const CardContainer = ({
   
   return (
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
+       <div className="w-[250px] m-auto mt-24 ">
+       <div className="text-3xl underline shadow-lg ">
+          More About her!!
+        </div>
+       </div>
       <div
         className={cn(
           "py-20 flex items-center justify-center",
@@ -100,6 +105,7 @@ export const CardContainer = ({
           perspective: "1000px",
         }}
       >
+       
         <div
           ref={containerRef}
           onMouseEnter={handleMouseEnter}
