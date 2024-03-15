@@ -303,7 +303,7 @@ export default function Home() {
       <HeroParallax products={products}/>
       <Spotlight/>
       <MacbookScroll/>
-      <LampDemo />
+      {/* <LampDemo /> */}
       <StickyScroll content={content}/>
       {/* <Tabs tabs={tabs}/> */}
       <InfiniteMovingCards items={items} />
